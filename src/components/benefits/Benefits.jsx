@@ -26,7 +26,7 @@ const Benefits = () => {
             <h1>a</h1>
         </div>
         
-        <video className="bg-video" autoPlay="autoplay" muted loop>
+        <video className="bg-video" autoPlay="autoplay" muted loop playsinline>
           <source src={BG_VIDEO} type="video/mp4" />
         </video>
       </div>

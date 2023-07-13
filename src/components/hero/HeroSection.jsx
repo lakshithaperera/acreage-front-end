@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="wrapper">
         <div className="bg-overlay"></div>
-        <video className="bg-video" autoPlay="autoplay" muted loop>
+        <video className="bg-video" autoPlay="autoplay" muted loop playsinline>
           <source src={HERO_BG} type="video/mp4" />
         </video>
 
